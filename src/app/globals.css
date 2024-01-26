@@ -246,7 +246,7 @@ a {
 }
 
 .about-image{
-  width: 10rem;
+  min-width: 10rem;
   height: 10rem;
 }
 
@@ -280,7 +280,7 @@ a {
         margin-left: 12rem;
     }
     .about-image{
-      width: 18rem;
+      min-width: 18rem;
       height: 18rem;
     }
     .x-padding {
