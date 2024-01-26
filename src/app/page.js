@@ -75,7 +75,7 @@ export default function Home() {
             <div
                 className="about-container"
                 style={{
-                    fontFamily: "favorit Mono",
+                    fontFamily: "Favorit Mono",
                     display: "flex",
                     width: "100%",
                 }}
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
             <div
                 style={{
-                    fontFamily: "favorit Mono",
+                    fontFamily: "Favorit Mono",
                     textTransform: "uppercase",
                     opacity: 0.5,
                     marginTop: "6rem",
