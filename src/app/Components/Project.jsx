@@ -65,7 +65,7 @@ const Project = ({ title, images, text, contributions, year, href }) => {
                     style={{
                         display: "flex",
                         flexDirection: "column",
-                        fontFamily: "Favorit Mono",
+                        fontFamily: "Favorit",
                         marginTop: "4rem",
                     }}
                 >

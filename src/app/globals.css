@@ -97,14 +97,14 @@
 }
 
 @font-face {
-    font-family: "Favorit Mono";
+    font-family: "Favorit";
     src: url("/fonts/ABCFavoritMono-Bold.otf") format("opentype");
     font-weight: 700; /* Adjust as needed */
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Favorit Mono";
+    font-family: "Favorit";
     src: url("/fonts/ABCFavoritMono-Book.otf") format("opentype");
     font-weight: 400; /* Adjust as needed */
     font-style: normal;
