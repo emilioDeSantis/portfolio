@@ -115,7 +115,7 @@ export default function Home() {
                     marginTop: "6rem",
                 }}
             >
-                // Projects
+                {`// Projects`}
             </div>
             <Project
                 images={["/3law.png"]}
