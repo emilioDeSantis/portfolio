@@ -62,15 +62,18 @@ export default function Home() {
                         </clipPath>
                     </defs>
                 </svg>
-                <div style={{
-                  fontSize: "1.6rem",
-                  fontWeight: 300,
-                  textTransform: "uppercase",
-                  lineHeight: 0.8,
-                  marginLeft: "1rem",
-                  fontStyle: "italic",
-
-                }}>Design Studio</div>
+                <div
+                    style={{
+                        fontSize: "1.6rem",
+                        fontWeight: 300,
+                        textTransform: "uppercase",
+                        lineHeight: 0.8,
+                        marginLeft: "1rem",
+                        fontStyle: "italic",
+                    }}
+                >
+                    Design Studio
+                </div>
             </div>
             <div
                 className="about-container"
@@ -102,10 +105,21 @@ export default function Home() {
                 <div
                     className="about-text"
                     style={{
-                        maxWidth: "30rem",
+                        maxWidth: "40rem",
                         opacity: 0.5,
+                        textTransform: "uppercase",
                     }}
-                >{`Phoenix Construction Resources is your go-to source for flexible, skilled labor on construction sites across the New England area. When your project requires additional manpower, we supply the dependable.`}</div>
+                >
+                    {`Emilio DeSantis is an independent design visionary.`}
+                    <br></br>
+                    {`Specializing in UI/UX design.`}
+                    <br></br>
+                    {`front/back-end development.`}
+                    <br></br>
+                    {`SEO.`}
+                    <br></br>
+                    {`Based in Boston, collaborating globally.`}
+                </div>
             </div>
             <div
                 style={{
@@ -120,11 +134,12 @@ export default function Home() {
             <Project
                 images={["/3law.png"]}
                 title={"3Laws Robotics"}
-                text={`Phoenix Construction Resources is your go-to source for flexible, skilled labor on construction sites across the New England area. When your project requires additional manpower, we supply the dependable.`}
+                text={`Revamped the website and created animated visuals to entice the user and explain the Supervisor Suite, making robotic safety understandable and accessible. This work improved user engagement and clarified the product's benefits.`}
                 contributions={[
                     "UI/UX Design",
                     "Frontend Development",
                     "Backend Development",
+                    "Animation",
                 ]}
                 year={2023}
                 href={"https://3laws.tech"}
@@ -132,7 +147,7 @@ export default function Home() {
             <Project
                 images={["/larn.png"]}
                 title={"Larnelle Art"}
-                text={`Phoenix Construction Resources is your go-to source for flexible, skilled labor on construction sites across the New England area. When your project requires additional manpower, we supply the dependable.`}
+                text={`Crafted a sleek website portfolio for a tattoo artist, elevating their business to the next level by showcasing their artistry and attracting a broader clientele.`}
                 contributions={[
                     "UI/UX Design",
                     "Frontend Development",
@@ -144,7 +159,7 @@ export default function Home() {
             <Project
                 images={["/sibo.png"]}
                 title={"Sibo Chocolate"}
-                text={`Phoenix Construction Resources is your go-to source for flexible, skilled labor on construction sites across the New England area. When your project requires additional manpower, we supply the dependable.`}
+                text={`Collaborated closely with Sibo Chocolate to reinvent their brand identity and create a robust e-commerce platform, enabling their expansion into the U.S. market.`}
                 contributions={[
                     "UI/UX Design",
                     "Frontend Development",
@@ -153,16 +168,33 @@ export default function Home() {
                 year={2023}
                 href={"https://sibo-chocolate.vercel.app"}
             />
-            <div style={{
-              display: "flex",
-              width: "100%",
-              justifyContent: 'flex-end',
-              opacity: 0.5,
-              marginBottom: "2rem",
-              gap: '2rem',
-              whiteSpace: 'nowrap',
-            }}>
-              <div>emilio@ui-design-studio.com</div><div>781-879-7402</div>
+
+            <Project
+                images={["/phoenix.png"]}
+                title={"Phoenix Construction Resources"}
+                text={`Partnered with Phoenix Construction Resources to overhaul their online presence and logo, crafting a dynamic phoenix animation to distinguish their brand in the marketplace. The project is set for an upcoming release.`}
+                contributions={[
+                    "UI/UX Design",
+                    "Frontend Development",
+                    "Backend Development",
+                    "Animation",
+                ]}
+                year={2024}
+                commingSoon
+            />
+            <div
+                style={{
+                    display: "flex",
+                    width: "100%",
+                    justifyContent: "flex-end",
+                    opacity: 0.5,
+                    marginBottom: "2rem",
+                    gap: "2rem",
+                    whiteSpace: "nowrap",
+                }}
+            >
+                <div>emilio@ui-design-studio.com</div>
+                <div>781-879-7402</div>
             </div>
         </main>
     );

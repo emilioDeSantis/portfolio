@@ -2,7 +2,15 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Project = ({ title, images, text, contributions, year, href }) => {
+const Project = ({
+    title,
+    images,
+    text,
+    contributions,
+    year,
+    href,
+    commingSoon,
+}) => {
     return (
         <div className="project-container" style={{}}>
             <div
@@ -147,24 +155,38 @@ const Project = ({ title, images, text, contributions, year, href }) => {
                             {year}
                         </div>
                         <div style={{ flexGrow: 1 }} />
-                        <Link
-                            target="_blank"
-                            href={href}
-                            style={{
-                                display: "inline-block",
-                                fontSize: "1rem",
-                                color: "#FF1F55",
-                                border: "1px solid #FF1F55",
-                                padding: "0.5rem 1.6rem",
-                                textDecoration: "none",
-                                cursor: "pointer",
-                                fontFamily: "Aeonik",
-                                fontWeight: "300",
-                                fontSize: "1.2rem",
-                            }}
-                        >
-                            Visit Site
-                        </Link>
+                        {!commingSoon && (
+                            <Link
+                                target="_blank"
+                                href={href}
+                                style={{
+                                    display: "inline-block",
+                                    fontSize: "1rem",
+                                    color: "#FF1F55",
+                                    border: "1px solid #FF1F55",
+                                    padding: "0.5rem 1.6rem",
+                                    textDecoration: "none",
+                                    cursor: "pointer",
+                                    fontFamily: "Aeonik",
+                                    fontWeight: "300",
+                                    fontSize: "1.2rem",
+                                }}
+                            >
+                                Visit Site
+                            </Link>
+                        )}
+                        {commingSoon && (
+                            <div
+                                style={{
+                                    fontFamily: "Aeonik",
+                                    fontWeight: "300",
+                                    fontSize: "1.2rem",
+                                    opacity: 0.7,
+                                }}
+                            >
+                                Comming Soon
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
