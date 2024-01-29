@@ -5,7 +5,7 @@ export const metadata = {
   openGraph: {
     title: 'UI Design Studio',
     description: 'Creating beautiful and functional interfaces for web and mobile applications.',
-    url: 'https://ui-design-studio.com/',
+    url: 'https://www.ui-design-studio.com/',
     siteName: 'ui-design-studio.com',
     images: [
       {
