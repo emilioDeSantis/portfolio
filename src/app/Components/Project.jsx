@@ -184,7 +184,7 @@ const Project = ({
                                     opacity: 0.7,
                                 }}
                             >
-                                Comming Soon
+                                Coming Soon
                             </div>
                         )}
                     </div>
