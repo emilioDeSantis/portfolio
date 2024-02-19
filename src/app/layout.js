@@ -9,7 +9,7 @@ export const metadata = {
     siteName: 'ui-design-studio.com',
     images: [
       {
-        url: '/og.png',
+        url: 'https://www.ui-design-studio.com/og.png',
         width: 800,
         height: 800,
       },
