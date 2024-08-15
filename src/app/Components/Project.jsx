@@ -59,7 +59,7 @@ const Project = ({
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <h2
                         style={{
-                            fontSize: "3.6rem",
+                            fontSize: "2.8rem",
                             fontWeight: "600",
                             textTransform: "uppercase",
                             lineHeight: "1",
