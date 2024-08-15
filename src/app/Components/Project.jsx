@@ -167,7 +167,6 @@ const Project = ({
                                     padding: "0.5rem 1.6rem",
                                     textDecoration: "none",
                                     cursor: "pointer",
-                                    fontFamily: "Inter",
                                     fontWeight: "300",
                                     fontSize: "1.2rem",
                                 }}
@@ -178,7 +177,6 @@ const Project = ({
                         {commingSoon && (
                             <div
                                 style={{
-                                    fontFamily: "Inter",
                                     fontWeight: "300",
                                     fontSize: "1.2rem",
                                     opacity: 0.7,

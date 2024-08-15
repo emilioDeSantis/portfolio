@@ -142,7 +142,7 @@ export default function Home() {
                     "Animation",
                 ]}
                 year={2023}
-                href={"https://3laws.tech"}
+                href={"https://www.chatgptdinos.com"}
             />
             <Project
                 images={["/larn.png"]}
@@ -165,8 +165,8 @@ export default function Home() {
                     "Frontend Development",
                     "E-Commerce Integration",
                 ]}
-                year={2023}
-                href={"https://sibo-chocolate.vercel.app"}
+                year={2024}
+                href={"https://6fa801.myshopify.com"}
             />
 
             <Project
@@ -180,7 +180,21 @@ export default function Home() {
                     "Animation",
                 ]}
                 year={2024}
-                commingSoon
+                commingSoon={true}
+            />
+
+<Project
+                images={["/bursal.png"]}
+                title={"Bursal Consulting & Management"}
+                text={`Designed and developed a modern website for Zeynep Bursal's construction management firm, showcasing her expertise and services. The responsive design effectively highlights key projects and client relationships, enhancing the company's online presence and professionalism.`}
+                contributions={[
+                    "UI Design",
+                    "Frontend Development",
+                    "Backend Development",
+                    "Iconography",
+                ]}
+                year={2024}
+                href={"https://www.bursalconsulting.com"}
             />
             <div
                 style={{
